@@ -1,1 +1,7 @@
 
+1. Make sure your system has node installed in it.
+2. Copy the file to your local system.
+3. Go to console and do the following:
+  3.1  tsc <pathtofile>/<filename>.ts  --> compiles .ts and creates .js file
+  3.2  node <pathtofile>/<filename>.js  --> to run the .js file
+4. You can see the output in the console window
