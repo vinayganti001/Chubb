@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to JSON</title>
+    <script>
+        function toJson() {
+            var specifications =
+            {
+                dimensions:
+                {
+                    length: 3500,
+                    width: 1600,
+                    height: 1490,
+                    wheelbase: 2360,
+                    trackwidth: {
+                        front: 1405,
+                        rear: 1400
+                    }
+                },
+                capcities:
+                {
+                    seating: 5,
+                    fuel: 35
+                },
+                engine:
+                {
+                    type: "KB-Series",
+                    noofcyl: 3,
+                    noofval: 12,
+                    capacity: 998,
+                    borexstroke: "73.0 x 79.5",
+                    compressionratio: "10:1",
+                    maxpow: "67/6,200",
+                    maxtor: "90/3,500",
+                    fuel: "multipoint injection"
+                },
+                transmission:
+                {
+                    type: "5-speed MT"
+                },
+                chassis:
+                {
+                    streeing: "RP, Power assisted",
+                    brakes: {
+                        front: "ventilated discs",
+                        rear: "drums"
+                    },
+                    suspension: {
+                        front: "MP sturt & coil spring",
+                        rear: "Isolated trailing lin & coil spring"
+                    },
+                    shocabs: "Gas filled",
+                    tyretubeless: "155/80R 13"
+                },
+                weights: {
+                    kerbweight: 860 - 880,
+                }
+            }
+            console.log(specifications);
+            document.getElementById("op").innerHTML = JSON.stringify(specifications);
+        }
+
+    </script>
+</head>
+
+<body>
+    <img src="https://www.mohanbn.com/wp-content/uploads/2008/11/a-star-tech-specs.jpg" alt="img to json">
+    <form action="">
+        <input type="button" onclick="toJson()" value="GetJSONObj">
+    </form>
+    <p id="op">output:</p>
+</body>
+
+</html>
