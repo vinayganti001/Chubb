@@ -1,0 +1,45 @@
+body{
+    border: 1px solid black;
+}
+.title {
+    text-align: center;
+    border-bottom: 1px solid black;
+   
+}
+
+.heads{
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;
+    font-size: 22px;
+    margin-left: -9px;
+    margin-top: 0px;
+}
+.left{
+    float: left;
+    width: 50%;
+    border-right: 1px  solid black;
+    border-bottom: 1px  solid black;
+    border-left: 1px  solid black;
+    padding-left: 10px;
+}
+
+.right{
+    float: left;
+    width: 48.5%;
+    padding-left: 10px;
+    border-right: 1px  solid black;
+    border-bottom: 1px  solid black;
+    border-left: 1px  solid black;
+}
+.justify-content{
+    text-align: justify;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+pre{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -75px;
+}
