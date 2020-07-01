@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Back - CountDown</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Please go to console to see the output of this task</h1>
+    <p>
+    <pre>
+        function CountdownForHappyBirthday(cb) {
+            cb();
+            setTimeout(() => { console.log("Happy Birthday.....!") }, 2000);
+        }
+        
+        CountdownForHappyBirthday(function () {
+            for (var i = 10; i >= 0; i--)
+                console.log(i);
+        }
+        );
+            
+        </pre>
+    </p>
+</body>
+
+</html>
