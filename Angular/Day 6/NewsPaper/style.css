@@ -1,0 +1,164 @@
+#headerWrapper {
+    text-align: center;
+}
+
+.all {
+    display: inline-block;
+}
+
+.header {
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+
+#lLogo {
+    margin-right: 200px;
+}
+
+#rLogo {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#title {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 200px;
+    text-transform: uppercase;
+}
+
+#shWrapper {
+    text-align: center;
+}
+
+#endDiv {
+    background-color: grey;
+}
+
+.subhead {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+#lsh {
+    margin-right: 400px;
+}
+
+#rsh {
+    margin-left: 400px;
+}
+
+.headline {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 700;
+    padding-right: 2px;
+}
+
+.headline>header {
+    font-size: 45px;
+}
+
+.headline>p {
+    text-align: justify;
+    width: 100%;
+}
+
+#secondLeft {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.subhead2 {
+    width: 47%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.subhead2>header {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.subhead2>p {
+    text-align: justify;
+}
+
+.subhead2>img {
+    float: left;
+    display: inline;
+    margin-right: 5px;
+}
+
+.subhead3 {
+    width: 95%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding: 20px 0px 10px 0;
+}
+
+.subhead3>header {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.subhead3>p {
+    text-align: justify;
+}
+
+.subhead3>img {
+    float: left;
+    display: inline;
+    margin-right: 5px;
+}
+
+#subhead2Heading {
+    margin-bottom: 3px;
+}
+
+.left {
+    float: left;
+    display: inline-block;
+    padding-right: 10px;
+    width: 700px;
+}
+
+.right {
+    width: 450px;
+    margin-left: 50px;
+    float: right;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+.rightTop {
+    display: inline;
+    float: right;
+}
+
+.rightTopHeading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rightH {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.borderedDiv {
+    display: inline;
+    float: right;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
