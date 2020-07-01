@@ -1,3 +1,5 @@
+Netlify: https://vinay-esmethods.netlify.app/
+
 INSTRUCTIONS TO RUN:
 1. Make sure your system has node installed in it.
 2. Copy the file to your local system.
@@ -6,4 +8,5 @@ INSTRUCTIONS TO RUN:
   3.2  node <pathtofile>/<filename>.js  --> to run the .js file
 4. You can see the output in the console window
 
-NOTE: As I am unable to get the console output in HTML file, I didnt create it.
+
+
