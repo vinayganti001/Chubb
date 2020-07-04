@@ -1,0 +1,19 @@
+Create a Form
+	- Name - Text box - required
+	- Email - Text - email
+	- DOB - Calender
+	- Country - Select Box
+	- Gender - Radio button
+	- Marital Status - Radio Button
+	- Fav Food - Check Box
+	- Multiple Addres(3 address)
+		- Street Name - Text box - required
+		- Door Number - Text Box
+		- Pincode - Text Box
+
+There should be proper validation messages for every control
+
+Split the screen into 2
+Keep the form in left side - Kepp the Table in right side
+If user click submmit button the data should pushed to table
+every row should have delete button. if user click the delete buuton the row should removed
