@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Database</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.2.0/dist/confetti.browser.min.js"></script>
+  </head>
+
+  <body>
+    <div class="row container-fluid">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <h4 class="textCenter">PLAYLISTS</h4>
+        <form>
+          <input
+            type="text"
+            id="createplaylistname"
+            placeholder="enter playlist name"
+          />
+          <input
+            type="text"
+            id="createplaylistgenre"
+            placeholder="enter genere(optional)"
+          />
+        </form>
+        <h5 id="createplerror" class="textCenter"></h5>
+        <button class="btn btn-primary btnCenter" id="team1Button">
+          Create Playlist
+        </button>
+        <h6 class="textCenter">TEAM 1 SCORE BOARD</h6>
+        <table class="table table-bordered" id="team1">
+          <thead>
+            <tr>
+              <th>Playlist No</th>
+              <th>Playlist Name</th>
+              <th>Playlist Genere</th>
+              <th>No of Songs</th>
+            </tr>
+          </thead>
+          <tbody id="playlistbody"></tbody>
+        </table>
+      </div>
+      <div class="col-lg-4 order-md-last col-md-6 col-sm-12 col-xs-12">
+        <h4 class="textCenter">SONGS</h4>
+        <form>
+          <input
+            type="text"
+            id="createsong"
+            placeholder="enter song url"
+            required
+          />
+          <input
+            type="text"
+            id="addtoplaylist"
+            placeholder="enter playlist"
+            required
+          />
+        </form>
+        <h5 id="songerr" class="textCenter"></h5>
+        <button class="btn btn-primary btnCenter" id="team2Button">
+          Add Song
+        </button>
+        <table class="table table-bordered" id="team2">
+          <thead>
+            <tr>
+              <th>Song No</th>
+              <th>Song Name</th>
+              <th>Playlist Name</th>
+            </tr>
+          </thead>
+          <tbody id="addsongbody">
+            <tr>
+              <td>1</td>
+              <td>
+                <audio controls>
+                  <source
+                    src="https://geekanddummy.com/wp-content/uploads/2014/02/ambient-noise-server-room.mp3"
+                    type="audio/mp3"
+                  />
+                  no support</audio
+                >"
+              </td>
+              <td>not in any playlist</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="resultSection">
+        <h3 class="textCenter">MUSIC DATABASE</h3>
+        <p class="textCenter" id="timer">
+          1. you can add some paylists - playistname - mandatory, genere
+          -optional <br />
+          2. you can add some songs.- songname online url of song, playlistname
+          -optional <br />
+          3. some sample urls of songs : <br />
+          https://geekanddummy.com/wp-content/uploads/2014/02/central-locking-Ford-Mondeo-Mk-3.mp3,
+          <br />
+          https://geekanddummy.com/wp-content/uploads/2014/01/teaspoon-stirring-mug-of-coffee.mp3,
+        </p>
+
+        <h5 class="textCenter resultText" id="gameWinner"></h5>
+        <h5 class="textCenter" id="manOfTheMatch"></h5>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
