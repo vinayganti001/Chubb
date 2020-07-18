@@ -1,1 +1,4 @@
 # Chubb
+
+Angular
+Python
